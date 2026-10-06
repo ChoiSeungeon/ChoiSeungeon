@@ -3,9 +3,6 @@
 **Backend Developer 최승언입니다.**  
 이벤트 처리·비동기 실행·데이터 정합성 문제를 다뤄 왔습니다.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ChoiSeungeon)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:chygold06@gmail.com)
-
 Projects: [DABOM](#dabom) · [TR1L](#tr1l) · [FIRE-SMOKE](#fire-smoke)
 
 ## 🎓 About Me
@@ -34,7 +31,7 @@ Projects: [DABOM](#dabom) · [TR1L](#tr1l) · [FIRE-SMOKE](#fire-smoke)
 
 가족 데이터의 사용량과 한도·차단 정책을 관리하는 서비스
 
-**Usage 영역 설계·통합 주도** · lib-kafka와 Family API 구현
+- **Usage 영역 설계·통합 주도** · lib-kafka와 Family API 구현
 
 <p>
 <a href="https://github.com/da-bom/dabom-processor-usage">
@@ -62,12 +59,14 @@ Projects: [DABOM](#dabom) · [TR1L](#tr1l) · [FIRE-SMOKE](#fire-smoke)
 
 [Usage Processor](https://github.com/da-bom/dabom-processor-usage) · [lib-kafka](https://github.com/da-bom/lib-kafka) · [Family API](https://github.com/da-bom/dabom-api-core)
 
+---
 ### TR1L
 
 청구서 생성과 정책에 따른 **모의 Email/SMS 발송**을 분리한 플랫폼
 
-**Delivery Consumer·상태 처리 구현**  
-처리 적체 위치와 상태 처리 순서를 개선하기 위한 **3가지 실행 구조 제안·적용**
+- **Delivery Consumer·상태 처리 구현**  
+- 처리 적체 위치와 상태 처리 순서를 개선하기 위한 **3가지 실행 구조 제안·적용**  
+- Frontend · 화면 구현·통합 및 최종 전달 담당
 
 <p>
 <a href="https://github.com/Team-TR1L/TR1L-BE">
@@ -87,14 +86,15 @@ Projects: [DABOM](#dabom) · [TR1L](#tr1l) · [FIRE-SMOKE](#fire-smoke)
 </p>
 
 [Backend](https://github.com/Team-TR1L/TR1L-BE) · [Frontend](https://github.com/Team-TR1L/TR1L-FE)  
-Frontend · 화면 구현·통합 및 최종 전달 담당  
+  
 🏆 K-Digital Training 과정종합 프로젝트경진대회 **우수상** · 팀 프로젝트
 
+---
 ### FIRE-SMOKE
 
 CCTV 화재·연기 감지 시스템 · 1인 학사 졸업논문
 
-**영상 → 추론 → 저장 → API → Android의 1인 설계·통합**
+- **영상 → 추론 → 저장 → API → Android의 1인 설계·통합**
 
 <a href="https://github.com/ChoiSeungeon/fireDetection">
   <picture>
@@ -107,6 +107,7 @@ CCTV 화재·연기 감지 시스템 · 1인 학사 졸업논문
 [Repository](https://github.com/ChoiSeungeon/fireDetection)  
 🏆 우수 논문 및 학술 발표 **동상**
 
+---
 ### 🧭 Backend Focus
 
 **FIRE-SMOKE** · 처리 단계 분리 → **TR1L** · 상태·실행 제어 → **DABOM** · 정합성·복구 인계
